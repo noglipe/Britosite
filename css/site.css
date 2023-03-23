@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+
+  /*   background-image: url(/img/background_home.jpg); */
+    background-size: cover;
+    background-attachment:local;
+   /*  background-color: rgba(0, 0, 0, 0.5); */
+    background-blend-mode: multiply;
+    background-color: #f7f7f7;
+}
+
+.apresentacao{
+    width: 500px;
+}
+
+.home h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #232323;
+    margin-bottom: 20px;
+    word-spacing: 1px;
+    
+}
+
+.home h2{
+    text-transform: uppercase;
+    border-top: 1px solid #6f6f6f;
+    border-bottom: 1px solid #6f6f6f;
+    font-size: 16px;
+    word-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #939393;
+}
+
+.home h3{
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #939393;
+}
+
+.redes-sociais td{
+
+    line-height: 1;
+    font-size: 24px;
+    color: #939393;
+    margin: 0 12px;
+
+    padding-top: 20px;
+    padding-right: 30px;
+    
+}
+
+.redes-sociais a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.fotoHome{
+    text-align: right;
+}
+
+.fotoHome img {
+    width: auto;
+    height: 500px;
+}
+
+
+.sobre{
+
+}
+
+@media screen and (max-width: 1024px) {
+
+.home{
+    height: 50vh;
+}
+
+.apresentacao{
+    width: 500px;
+    padding-top: 50px;
+}
+
+.fotoHome img {
+    width: auto;
+    height: 300px;
+    margin-top: 0px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+
+    .home{
+        height: 50vh;
+    }
+    
+    .apresentacao{
+        width: 500px;
+        padding-top: 100px;
+    }
+    
+    .fotoHome img {
+        width: auto;
+        height: 400px;
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width: 653px) {
+
+    .home{
+        height: 100vh;
+        align-items: center;
+        justify-content: start;
+    }
+    
+    .fotoHome{
+        text-align: center;
+    }
+    
+    .fotoHome img {
+        height: 200px;
+    }
+}
+
+@media screen and (min-height: 800px) {
+
+    .home{
+        height: 50vh;
+    }
+
+}
+
+@media screen and (min-height: 1000px) {
+
+    .fotoHome img {
+        display: none;
+    }
+
+    .apresentacao{
+        width: 50vh;
+    }
+}
