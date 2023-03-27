@@ -27,12 +27,16 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 100px;
+    height: 70px;
     width: 100%;
     position: fixed;
     /*  background-color: var(--cor-fundo1); */
-    font-size: 30px;
+    font-size: 20px;
     align-items: center;
+    background-color: rgba(179, 179, 179, 0.5);
+    z-index: 10;
+  /*   border-bottom: 1px solid var(--fundo-branco); */
+    box-shadow: 0px 1px 5px var(--texto1);
 }
 
 .menu .logo {
@@ -64,6 +68,7 @@ section {
     flex-wrap: wrap;
     padding-top: 100px;
     align-items: center;
+    overflow: hidden;
 }
 
 /* home */
@@ -143,6 +148,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 
 .sobre .especialidades{
