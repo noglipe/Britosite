@@ -26,7 +26,7 @@ header {
     padding: 20px 0;
     width: 100%;
     position: fixed;
-    background-color: #F5F5F5;
+   /*  background-color: #F5F5F5; */
     z-index: 10;
 }
 
@@ -190,7 +190,7 @@ header {
 .sobre .texto-sobre p {
     margin-bottom: 10px;
     color: #F5F5F5;
-
+    
 }
 
 .foto img {
@@ -204,14 +204,14 @@ header {
 }
 
 footer {
-    height: 100px;
+    height: 60px;
     display: flex;
     max-width: 1800px;
     margin: 0 auto;
     font-size: 20px;
-    padding: 20px;
+    padding: 5px;
     font-weight: bold;
-    margin-top: 25px;
+    margin-top: 2px;
 }
 
 .direitos {
